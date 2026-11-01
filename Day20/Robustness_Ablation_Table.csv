@@ -1,0 +1,8 @@
+Study,Configuration,Result,Interpretation,Status
+Baseline,YOLO11s V2.1, mAP50=0.236; mAP50-95=0.143,Reference configuration,Completed
+Oversampling,YOLO11s V2.1 oversampled,mAP50=0.203; mAP50-95=0.125,Aggregate performance decreased,Completed
+Low visibility,Image degradation,Not measured,Requires dedicated stress test,Future work
+Occlusion,Partial object obstruction,Not measured,Requires dedicated stress test,Future work
+Clutter,Overlapping objects,Not measured,Requires dedicated stress test,Future work
+Small objects,Object-size-stratified evaluation,Not measured,Requires dedicated evaluation,Future work
+Class imbalance,Class-wise validation metrics,Several classes near zero mAP,Uneven detection performance,Completed
