@@ -1,0 +1,20 @@
+Project: Underwater Garbage Detection
+Dataset: TrashCAN material_version V2.1
+Model: YOLO11s
+Pretrained: Yes
+Input image size: 640 x 640
+Epochs: 100
+Parameters: 9,418,992
+GFLOPs: 21.5
+
+Training images: 5078
+Validation images: 1050
+Test images: 1084
+
+Validation Precision: 0.519
+Validation Recall: 0.234
+Validation mAP50: 0.236
+Validation mAP50-95: 0.143
+
+Checkpoint:
+yolo_runs/V2.1_yolo11s_baseline_640/weights/best.pt
